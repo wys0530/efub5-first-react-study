@@ -35,3 +35,4 @@ function Accommodate(props) {
 }
 
 export default Accommodate;
+//3주차
