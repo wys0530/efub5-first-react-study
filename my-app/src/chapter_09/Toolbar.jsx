@@ -12,6 +12,10 @@ const styles = {
   },
 };
 
+
+//사용자의 로그인 여부를 나타내는 isLoggedin값을 프롭스로 받아, 
+// 조건부 렌더링을 사용하여 환영 메시지를 표시하거나 감추고, 로그인 로그아웃 버튼을 보여주는 역할을 함
+
 function Toolbar(props) {
   const { isLoggedIn, onClickLogin, onClickLogout } = props;
 
